@@ -4,15 +4,21 @@
     --main-element-color: #000000;
 }
 
+html{
+    height: 100%;
+}
+
 body {
     background-image: url("https://joedemcher.github.io/Images/nyc_skyline.png");
     color: var(--main-text-color);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-style:italic;
     font-size: 20px;
+    height: 95%;
 }
 
 img {
@@ -49,7 +55,7 @@ div {
 .copyright{
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
-    margin: 20px 0px;
+    margin: 10px 0px;
     position: absolute;
     align-content: center;
     width: 100%;
@@ -123,4 +129,44 @@ a:hover {
 
 a:active {
     color: var(--main-text-color);
+}
+
+@media (max-width: 767.98px) {
+    
+    .small-text{
+        font-size: 12px;
+    }
+
+    .copyright{
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        margin: 10px 0px;
+        position: absolute;
+        align-content: center;
+        width: 100%;
+        bottom: 0;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    body {
+        font-size: 12px;
+    }
+
+    p.line-1{
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        border-right: 2px solid transparent;
+        margin: 0 auto;
+        font-size: 35px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;  
+    }
+
+    .nav-item{
+        margin: 0.25rem 5rem;
+    }
+
 }
