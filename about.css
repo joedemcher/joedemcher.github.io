@@ -1,0 +1,12 @@
+.size{
+    height: 50px;
+    width: 50px;
+    align-content: center;
+}
+
+div .box{
+    height: 300px;
+    width: 400px;
+    background: #000000;
+
+}

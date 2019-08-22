@@ -98,7 +98,7 @@ p.line-1{
 
 .nav-item{
     background: var(--main-element-color);
-    margin: 2rem 1rem;
+    margin: 1rem 15rem;
     width: 20%;
     text-align: center;
     transition-duration: 1s;
