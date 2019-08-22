@@ -1,0 +1,119 @@
+:root{
+    --main-bg-color: #ffffff;
+    --main-text-color: #ffffff;
+    --main-element-color: #000000;
+}
+
+body {
+    background-image: url("Images/nyc_skyline.png");
+    color: var(--main-text-color);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 5px 0px 0px 0px;
+}
+
+.container{
+    padding: 0px 10px 0px 20px;
+    background: var(--main-element-color);
+    border: 5px solid var(--main-element-color);
+    border-radius: 10px;
+}
+
+.small-text{
+    margin: 0 auto;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.copyright{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0px;
+    position: absolute;
+    align-content: center;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+span{
+    padding: 5px 0px 20px 0px;
+}
+
+p.line-1{
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    border-right: 2px solid transparent;
+    margin: 0 auto;
+    font-size: 42px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 1.2s steps(32) 1s 1 normal both,
+             blinkTextCursor 800ms steps(7) 8 normal;
+}
+
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 6em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: #000000}
+  to{border-right-color: transparent;}
+}
+
+.nav-item{
+    background: var(--main-element-color);
+    margin: 0px 10px 0px 10px;
+    width: 50%;
+    text-align: center;
+    transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+}
+
+.nav-item:hover{
+    opacity: 0.5;
+    transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+}
+
+a:link {
+    color: var(--main-text-color);
+}
+
+a:visited {
+    color: var(--main-text-color);
+}
+
+a:hover {
+    color: var(--main-text-color);
+}
+
+a:active {
+    color: var(--main-text-color);
+}
