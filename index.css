@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("Images/nyc_skyline.png");
+    background-image: url("https://joedemcher.github.io/Images/nyc_skyline.png");
     color: var(--main-text-color);
     background-size: cover;
     font-family: 'Roboto', sans-serif;
