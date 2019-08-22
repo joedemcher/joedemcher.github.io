@@ -9,7 +9,7 @@ html{
 }
 
 body {
-    background-image: url("https://joedemcher.github.io/Images/nyc_skyline.png");
+    background-image: url("https://joedemcher.github.io/Images/nyc_skyline.jpg");
     color: var(--main-text-color);
     background-size: cover;
     background-repeat: no-repeat;
