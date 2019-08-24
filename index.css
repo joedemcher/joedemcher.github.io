@@ -9,8 +9,9 @@ html{
 }
 
 body {
-    background-image: url("https://joedemcher.github.io/Images/nyc_skyline.jpg");
+    background-image: url("https://joedemcher.com/Images/nyc_skyline.jpg");
     color: var(--main-text-color);
+    z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -135,6 +136,23 @@ a:active {
     color: var(--main-text-color);
 }
 
+@media (max-width: 576px) {
+    p.line-1{
+        font-size: 60px; 
+    }
+
+    .nav-item{
+        margin: 0.5rem 15rem;
+        width: 40%;
+        font-size: 18px;
+    }
+
+    .nav-item:hover{
+        opacity:1;
+    }
+ }
+
+
 @media (max-width: 767.98px) {
     
     .small-text{
@@ -171,6 +189,10 @@ a:active {
 
     .nav-item{
         margin: 0.25rem 5rem;
+    }
+
+    .nav-item:hover{
+        opacity:1;
     }
 
 }
