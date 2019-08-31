@@ -45,6 +45,11 @@ div {
     border-radius: 10px;
 }
 
+
+span{
+    padding: 5px 0px 20px 0px;
+}
+
 .small-text{
     margin: 0 auto;
     color: #000000;
@@ -59,29 +64,12 @@ div {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-style: italic;
-    margin: 10px 0px;
     position: absolute;
     align-content: center;
     width: 100%;
     bottom: 0;
     font-size: 14px;
     text-align: center;
-}
-
-span{
-    padding: 5px 0px 20px 0px;
-}
-
-p.line-1{
-    color: #000000;
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-    border-right: 2px solid transparent;
-    margin: 0 auto;
-    font-size: 55px;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;    
 }
 
 /* Animation */
@@ -135,8 +123,24 @@ a:active {
     color: var(--main-text-color);
 }
 
+a.title{
+    color: black;
+}
+
+.line-1{
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    border-right: 2px solid transparent;
+    margin: 0 auto;
+    font-size: 55px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;    
+}
+
 @media (max-width: 576px) {
-    p.line-1{
+    p .line-1{
         font-size: 60px; 
     }
 
@@ -174,7 +178,7 @@ a:active {
         font-size: 12px;
     }
 
-    p.line-1{
+    .line-1{
         color: #000000;
         font-family: 'Roboto', sans-serif;
         position: relative;
