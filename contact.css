@@ -103,8 +103,8 @@ span{
     padding: 5px 0px 20px 0px;
 }
 
-p.line-1{
-    color: #000000;
+.line-1{
+    color: var(--main-element-color);
     font-family: 'Roboto', sans-serif;
     position: relative;
     border-right: 2px solid transparent;
