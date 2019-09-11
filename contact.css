@@ -115,6 +115,10 @@ span{
     overflow: hidden;    
 }
 
+a.title{
+    color: black;
+}
+
 /* Animation */
 .anim-typewriter{
   animation: typewriter 1.2s steps(32) 1s 1 normal both,
@@ -167,7 +171,7 @@ a:active {
 }
 
 @media (max-width: 576px) {
-    p.line-1{
+    .line-1{
         font-size: 60px; 
     }
 
@@ -205,7 +209,7 @@ a:active {
         font-size: 12px;
     }
 
-    p.line-1{
+    .line-1{
         color: #000000;
         font-family: 'Roboto', sans-serif;
         position: relative;
