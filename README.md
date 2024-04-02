@@ -2,4 +2,4 @@
 
 Inspired by: [sallar.me](https://sallar.me)
 
-Last updated: 09/07/2023
+Last updated: 04/02/2024
